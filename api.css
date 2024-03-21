@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkseagreen;
+    justify-content: center;
+    gap: 30px;   
+}
+#user h1{
+    color: black;
+}
+#details{
+    display: flex;
+    /* margin-top: 20px; */
+}
+button{
+    cursor: pointer;
+}
